@@ -1,0 +1,13 @@
+/*mixin*/
+@import "base/mixin";
+@import 'base/normalize';
+@import 'base/fonts';
+@import "base/class";
+
+/*blocks vendors*/
+@import "vendors/bootstrap";
+@import "vendors/bootstrap-theme";
+
+/*blocks damutek*/
+@import "bloks/header";
+@import "bloks/footer";
