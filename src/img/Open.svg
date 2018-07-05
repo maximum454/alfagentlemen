@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200.132 83.035">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 31px;
+        font-family: AkzidenzGroteskPro-MdCn, Akzidenz-Grotesk Pro;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        filter: url(#Скоро_открытие);
+      }
+
+      .cls-4 {
+        filter: url(#Path_39);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="0.842" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#640000"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+    <filter id="Path_39" x="0" y="0" width="200.132" height="83.035" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Скоро_открытие" x="27.015" y="14" width="146" height="44" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Open" transform="translate(-654.395 -236)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 654.4, 236)">
+      <path id="Path_39-2" data-name="Path 39" class="cls-1" d="M0,0H65.035L56.392,90.625l8.643,91.508H0Z" transform="translate(191.13 6) rotate(90)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 654.4, 236)">
+      <text id="Скоро_открытие-2" data-name="Скоро открытие" class="cls-2" transform="translate(100.01 45)"><tspan x="-69.037" y="0">Скоро открытие</tspan></text>
+    </g>
+  </g>
+</svg>
