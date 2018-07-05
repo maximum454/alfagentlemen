@@ -10,22 +10,49 @@
 	}
 	h2{
 		color: #fff;
-		font-size: 24px;
+		font-size: 36px;
+		font-family: $Fonts3;
 		text-align: center;
 	}
 	p{
-		color: #504031;
-		font-size: 14px;
+		color: #AE8765;
+		font-size: 16px;
+		line-height: 21px;
+		font-family: $Fonts2;
 		font-style: italic;
 		text-align: center;
 		margin: 0;
 		position: relative;
 	}
 	hr{
-		border-color: #504031;
+		border-color: #AE8765;
 	}
 	&__adress{
 		color: #fff;
 		font-size: 16px;
+		line-height: 21px;
+		font-family: $Fonts2;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 26px;
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			top: -30px;
+			left: 50%;
+			transform: translate(-50%,0);
+			background-image: url("../img/Location-Icon.svg");
+			background-size: 100%;
+			width: 17px;
+			height: 25px;
+		}
+	}
+	&__copyright{
+		color: #AE8765;
+		font-size: 10px;
+		line-height: 20px;
+		font-family: $Fonts1;
+		text-align: center;
 	}
 }
