@@ -7,13 +7,13 @@
 
 @font-face {
   font-family: 'Georgia';
-  src: local('Georgia'), local('Georgia'), url('../fonts/Georgia/Georgia-Regular.ttf') format('truetype');
+  src: url('../fonts/Georgia/Georgia-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Georgia';
-  src: local('Georgia'), local('Georgia'), url('../fonts/Georgia/Georgia-Italic.ttf') format('truetype');
+  src: url('../fonts/Georgia/Georgia-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }

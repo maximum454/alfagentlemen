@@ -2,6 +2,11 @@
 	position: relative;
 	z-index: 10;
 	margin-bottom: 40px;
+	&:after{
+		content: '';
+		display: table;
+		clear: both;
+	}
 	h1{
 		color: #fff;
 		font-size: 36px;
@@ -36,6 +41,8 @@
 		margin-top: 10px;
 		margin-bottom: 26px;
 		position: relative;
+		display: block;
+		text-decoration: none;
 		&:before{
 			content: '';
 			position: absolute;
